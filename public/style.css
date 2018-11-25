@@ -1,0 +1,26 @@
+body {
+  /* The image used */
+  background-color: gray;
+}
+
+.button-grid-container {
+  display: grid;
+  justify-content: center;
+  grid-row-gap: 1.5vh;
+}
+
+.button-grid-item {
+  justify-self: center;
+}
+
+.play-btn {
+  color: #1A1A1A;
+  border-radius: 30px;
+  text-align: center;
+  width: 7em;
+  height: 2em;
+  font-size: 3vw;
+  font-family: 'Courier New';
+}
+
+
